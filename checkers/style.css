@@ -1,0 +1,124 @@
+div {
+  width: 400px;
+  height: 400px;
+  background: #252137;
+  background: 
+	linear-gradient(135deg, transparent 75%, rgba(255, 255, 255, .4) 0%) 0 0,
+	linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, .4) 0%) 50px 50px,
+	linear-gradient(135deg, transparent 75%, rgba(255, 255, 255, .4) 0%) 50px 50px,
+	linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, .4) 0%) 0 0,
+	#253137;
+  background-size: 100px 100px;
+  position: relative;
+}
+.circle {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+}
+[class*="black"] {
+	box-shadow: 1px 1px 1px silver, inset 0 0 6px silver;
+	background: #252137;
+}
+.black1 {
+	top: 12px;
+	left: 62px;
+}
+.black2 {
+	top: 12px;
+	left: 162px;
+}
+.black3 {
+	top: 12px;
+	left: 262px;
+}
+.black4 {
+	top: 12px;
+	left: 362px;
+}
+.black5 {
+	top: 62px;
+	left: 12px;
+}
+.black6 {
+	top: 62px;
+	left: 112px;
+}
+.black7 {
+	top: 62px;
+	left: 212px;
+}
+.black8 {
+	top: 62px;
+	left: 312px;
+}
+.black9 {
+	top: 112px;
+	left: 62px;
+}
+.black10 {
+	top: 112px;
+	left: 162px;
+}
+.black11 {
+	top: 112px;
+	left: 262px;
+}
+.black12 {
+	top: 112px;
+	left: 362px;
+}
+[class*="white"] {
+	-webkit-box-shadow: 1px 1px 1px gray;
+	box-shadow: 1px 1px 1px gray, inset 0 0 6px black;
+	background: #fff;
+}
+.white1 {
+	top: 262px;
+	left: 12px;
+}
+.white2 {
+	top:262px;
+	left: 112px;
+}
+.white3 {
+	top: 262px;
+	left: 212px;
+}
+.white4 {
+	top: 262px;
+	left: 312px;
+}
+.white5 {
+	top: 312px;
+	left: 62px;
+}
+.white6 {
+	top: 312px;
+	left: 162px;
+}
+.white7 {
+	top: 312px;
+	left: 262px;
+}
+.white8 {
+	top: 312px;
+	left: 362px;
+}
+.white9 {
+	top: 362px;
+	left: 12px;
+}
+.white10 {
+	top: 362px;
+	left: 112px;
+}
+.white11 {
+	top: 362px;
+	left: 212px;
+}
+.white12 {
+	top: 362px;
+	left: 312px;
+}

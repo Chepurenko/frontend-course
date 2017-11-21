@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.body {
+	width: 880px;
+	height: 630px;
+	background: linear-gradient(to right, rgba(102,51,153,1) 0%,rgba(153,104,153,1) 100%);
+	margin: 0 auto;
+}
+.wrap {
+	position: relative;
+	width: 880px;
+	height: 630px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 12px;
+}
+.header {
+	display: block;
+	position: absolute;
+	z-index: 100;
+}
+.header>* {
+	display: inline-block;
+	line-height: 60px;
+}
+.logo {
+	margin-left: 65px;
+	margin-right: 165px;
+	text-decoration: none;
+	color: white;
+}
+.header_nav{
+	margin-right: 50px;
+	text-decoration: none;
+	color: white;
+}
+.burger {
+	text-align: right;
+	margin-left: 65px;
+	text-decoration: none;
+	color: white;
+}
+.wrap_card {
+	width: 780px;
+	height: 400px;
+	background-color: white;
+	opacity: 0.5;
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	z-index: 2;
+}
+.wrap_card__second {
+	width: 800px;
+	height: 390px;
+	top: 125px;
+	left: 40px;
+	z-index: 2;
+}
+.wrap_card__bg {
+	width: 880px;
+	height: 630px;
+	background-image: url(img/bg_t.png);
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .3;
+}
+.wrap_card__product {
+	position: relative;
+	width: 750px;
+	height: 430px;
+	background: #F4F4F4;
+	opacity: 1;
+	top: 105px;
+	left: 65px;
+	margin-right: 0;
+	z-index: 150;
+}
+.main {
+	width: inherit;
+	height: inherit;
+	
+}
+.main_title {
+	background-image: url(img/bg_pict.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 70px;
+	font-weight: 700;
+	font-size: 70px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	margin-left: 30px;	
+}
+.main_product {
+	position: absolute;
+	top: 95px;
+}
+.button-add {
+	cursor: pointer;
+	background: none;
+	border: none;
+	position: absolute;
+	left: 450px;
+	bottom: 70px;
+}
+.main_preview-conteiner {
+	display: block;
+	padding: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 100px;
+}
+.main_preview {
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	margin: 0 20px;
+	background: #F4F4F4;
+	-webkit-box-shadow: 0 0 0 3px #FFF;
+	        box-shadow: 0 0 0 3px #FFF;
+	overflow: hidden;
+	cursor: pointer;
+}
+.main_preview__first {
+	background-image: url(img/img1.jpg);
+	background-position: center;
+}
+.main_preview__second {
+	background-image: url(img/img2.jpg);
+	background-position: center;
+}
+.main_preview__third {
+	background-image: url(img/img3.jpg);
+	background-position: center;
+}
+.aside {
+	width: 248px;
+	height: 430px;
+	background: #FFF;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-left: 30px;
+	color: black;	
+}
+.button-close {
+	cursor: pointer;
+	background: none;
+	border: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.aside_title {
+	width: 42px;
+	height: 24px;
+	background-color: #FFA60D;
+	color: #FFF;
+	list-style: 0.01em;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 24px;
+	margin: 45px 0 10px 0;
+}
+h1 {
+	font-size: 24px;
+	font-weight: 400;
+	list-style: 0.01em;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.aside_text-color {
+	color: #5e4fff;
+}
+.aside_rating {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 20px 20px 15px 0;
+}
+.aside_cost {
+	font-size: 22px;
+	font-weight: 300;
+	margin: 0 0 25px;
+}
+.aside_size {
+	font-size: 12px;
+	list-style: 0.01em;
+}
+.size_change {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+	letter-spacing: 0.01em;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.checkbox {
+	display: none;
+}
+.checkbox:checked+b {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: white;
+	border: 1px solid black;
+}
+.button_add {
+	width: 120px;
+	height: 30px;
+	background: rgb(162, 0, 184);
+	border: 0;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+
+.button_wishlist {
+	width: 120px;
+	height: 30px;
+	background: none;
+	border: 1px solid black;
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+
+

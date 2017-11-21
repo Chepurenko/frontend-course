@@ -1,0 +1,89 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+font-family:"Miso";
+src:url("miso.eot?")format("eot"),
+url("miso.woff") format("woff"),
+url("miso.ttf") format("truetype"),
+url("miso.svg#Miso") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+body {
+	-webkit-align-items: center;
+	        align-items: center;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background: #000;
+}
+.holder {
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: #FDDE7E;
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+}
+.card {	
+	background: #fff;
+	display: inline-flex;
+	-webkit-box-shadow: 0 0 7px 0 lightslategrey;
+	        box-shadow: 0 0 7px 0 lightslategrey;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	/*-webkit-align-content: stretch;*/
+	        /*align-content: stretch;*/
+}
+
+.cost {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 70px;
+	color: #02995B;
+	font-family:"Miso";
+}
+.card_bronze {
+	width: 360px;
+	height: 440px;
+	margin: auto;
+	background-image: url(img/bean.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.card_gold {
+	width: 360px;
+	height: 500px;
+	margin: 50px 30px;
+	background-image: url(img/cup2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.card_silver {
+	width: 360px;
+	height: 440px;
+	margin: auto;
+	background-image: url(img/cup3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.value {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 0;
+}
+.transcript {
+	display: inline-block;
+	width: 50%;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px auto;
+	font-family: 'lato', sans-serif;
+}

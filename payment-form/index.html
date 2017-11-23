@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>paymet-form</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="back">
+		<div class="card">
+			<div class="card_header">
+				<div class="card_info">
+					<div class="holder">Harold Finch</div>
+					<div class="total">your total</div>
+				</div>
+				<div class="value">$88</div>
+			</div>
+			<div class="card_content">
+				<form action="#">
+					<label class="card_number">
+						<p>Credit card number</p>
+						<input class="number" type="text" placeholder="1234 |">
+					</label>
+					<label class="card_date">
+						<p class="date">Expiration date</p>
+						<div class="arrow">
+						<select name="Month">
+							<option value="">Month</option>
+							<option value="">01</option>
+							<option value="">02</option>
+						</select>
+						<select name="Year">
+							<option value="">Year</option>
+							<option value="">2019</option>
+							<option value="">2020</option>
+						</select>
+						</div>
+					</label>
+					<label class="card_cvv">
+						<p>CVV</p>
+						<input class="cvv" type="text"><p>3 or 4 digits - <a href="#">view example</a></p>
+					</label>
+					<hr class="card_line">
+					<button class="card_button">Pay</button>
+					<a class="cancel" href="#">Cancel order</a> 
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

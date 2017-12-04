@@ -19,6 +19,9 @@ body {
 	height: 100vh;
 	background: #000;
 }
+[type="radio"] {
+	display: none;
+}
 .holder {
 	display: flex;
 	-webkit-justify-content: space-around;
@@ -61,11 +64,10 @@ body {
 .card_silver {
 	background-image: url(img/cup3.png);
 }
-
-.card:hover {
+input:checked+.card {
 	height: 500px;
 	padding: 35px 0 40px;
-	transition: all .6s ease-out;
+	transition: all .6s ease-out ;
 }
 .cost {
 	font-size: 70px;

@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'themify';
+  src: url('../fonts/themify-icons-20171205T105830Z-001/themify-icons/fonts/themify.eot');
+  src: url('../fonts/themify-icons-20171205T105830Z-001/themify-icons/fonts/themify.eot') format('embedded-opentype'), url('../fonts/themify-icons-20171205T105830Z-001/themify-icons/fonts/themify.woff') format('woff'), url('../fonts/themify-icons-20171205T105830Z-001/themify-icons/fonts/themify.ttf') format('truetype'), url('../fonts/themify-icons-20171205T105830Z-001/themify-icons/fonts/themify.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neuebold';
+  src: url('../fonts/BebasNeueBold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neuelight';
+  src: url('../fonts/BebasNeueLight.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neue_regular';
+  src: url('../fonts/BebasNeueRegular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebas_neuethin';
+  src: url('../fonts/BebasNeueThin.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: #9789f9;
+  font: 16px/53px 'Roboto', sans-serif;
+}
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+  -o-transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+  transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+  -o-transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+  transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #9789f9;
+  font: 16px/53px 'Roboto', sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.ba-pricing {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ba-pricing__col {
+  background: #F5F4F9;
+  position: relative;
+  width: 330px;
+  height: 610px;
+  margin: 10px;
+  text-align: center;
+}
+.ba-pricing__col::before {
+  content: "\e61f";
+  position: absolute;
+  top: 205px;
+  left: 45%;
+  font-size: 32px;
+  font-family: 'themify';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  z-index: 5;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ba-pricing__col:first-of-type::before {
+  content: "\e6e0";
+  top: 205px;
+}
+.ba-pricing__col:last-of-type::before {
+  content: "\e69a";
+  top: 205px;
+}
+.ba-pricing__col--center {
+  width: 370px;
+  height: 690px;
+}
+.ba-price {
+  height: 100%;
+}
+.ba-price__rate {
+  margin: 30px 0 0;
+  font: 60px/1 'bebas_neuethin', sans-serif;
+}
+.ba-price__rate::before {
+  content: '$';
+  font-size: 24px;
+  font-family: 'bebas_neuelight', sans-serif;
+  vertical-align: text-top;
+}
+.ba-price__rate::after {
+  content: "/HR";
+  font-size: 16px;
+  font-family: 'bebas_neuelight', sans-serif;
+  vertical-align: baseline;
+}
+.ba-price__position {
+  font: 24px/1 'bebas_neue_regular', sans-serif;
+  letter-spacing: 0.08em;
+  margin: 25px 0 30px;
+}
+.ba-price__body {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 63%;
+}
+.ba-price__body::before {
+  content: "";
+  z-index: 0;
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  left: -175px;
+  background: #fdfdff;
+  -webkit-border-radius: 50% 50% 0 0;
+  border-radius: 400px 400px 0 0;
+}
+.ba-price::after {
+  content: "Ordernow &  get 15% Discount";
+  font: 11px/53px 'roboto', sans-serif;
+  color: #A9A9A9;
+}
+ul {
+  position: relative;
+  z-index: 3;
+  text-align: left;
+  padding: 90px 0 0 0;
+}
+li {
+  list-style-type: none;
+  margin-left: 30%;
+}
+.ba-button {
+  text-decoration: none;
+  display: block;
+  width: 210px;
+  border-radius: 100px;
+  background: #6fcffb;
+  position: relative;
+  margin: 25px auto 0;
+  color: white;
+  font: 18px/55px 'bebas_neuebold', sans-serif;
+  line-height: 55px;
+}
+.ba-pricing__col--center .ba-button {
+  background: #fd8d7b;
+  margin: -25px auto 0;
+}
